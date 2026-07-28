@@ -46,7 +46,7 @@ pipeline {
     post {
         success {
             echo "Deployment Successful!"
-            echo "Open: http://<EC2-PUBLIC-IP>:5000"
+            echo "Open: http://65.2.168.165:5000"
         }
 
         failure {
